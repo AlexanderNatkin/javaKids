@@ -12,7 +12,6 @@ public class ReportCard {
     }
     public static char convertGrades(int testResult) { // делаем метод статическим
         char grade;
-
         if (testResult >= 90) {
             grade = 'A';
         } else if (testResult >= 80) {
